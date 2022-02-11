@@ -1,0 +1,47 @@
+Assignment-2:
+ 
+------------------------
+Write a program to Generate Student Result.
+
+#To Generate Student result
+sno=int(input('Enter student no: '))
+sname=input('Enter student name: ')
+s1=int(input('Enter Maths marks: '))
+s2=int(input('Enter Electronics marks: '))
+s3=int(input('Enter Computer marks: '))
+s4=int(input('Enter English marks: '))
+s5=int(input('Enter Telugu marks: '))
+s6=int(input('Enter Softskills: '))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if avg>=91:
+     print('O-Grade')
+elif avg>=81:
+     print('A-Grade')
+elif avg>=71:
+     print('B-Grade')
+elif avg>=61:  
+     print('C-Grade')
+elif avg>=51:
+     print('D-Grade')
+elif avg>=41: 
+     print('Pass')
+elif avg>=31:
+     print('Fail')
+O/p:
+--------
+Enter student no: 9
+Enter student name: chandini
+Enter Maths marks: 89
+Enter Electronics marks: 95
+Enter Computer marks: 56
+Enter English marks: 34
+Enter Telugu marks: 66
+Enter Softskills: 74
+C-Grade
+
+                                   
+                     
+
+         
+        
